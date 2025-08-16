@@ -36,7 +36,7 @@ signals:
     void timeUpdated(const QString& formatted);
 
     // 00:00 도달 시 호출
-    void timeout();
+    void timeOut();
 
     // 시설 상태 변경 알림
     void availableChanged(bool available);
